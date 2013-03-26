@@ -1,5 +1,7 @@
 require 'rubygems'
 require 'sinatra'
+require 'json'
+#require 'sinatra/contrib/all'
 
 configure :production do
   # Configure stuff here you'll want to
@@ -9,17 +11,39 @@ configure :production do
   #       from ENV['DATABASE_URI'] (see /env route below)
 end
 
-
-HTTP_OK = 200
-HEADERS = {
-}
-
-get '/api/:version/:call' do
-  body = ""
-
-  [HTTP_OK, HEADERS, body]
+def respond(body)
+  [200, {
+      'X-Strain' => 'indica'
+  }, body.is_a?(String) ? body : body.to_json]
 end
 
-get '/senv' do
-   ENV.inspect
+get '/api/:version/:method' do |version, method|
+  respond(
+      version: version,
+      method: method,
+      data: [
+        {
+            user: 'test',
+            idea: 'What if we made an app to share ideas while high?'
+        }
+      ]
+  )
+end
+
+get '/inv' do
+   respond <<-HTML
+
+<dl>
+#{ ENV.map { |name, value| "<dt>#{name}</dt>\n<dd>'#{value}'</dd><br/>\n" }.join }
+</dl>
+
+  HTML
+end
+
+get '/self' do
+  respond <<-HTML
+<pre>
+#{Rack::Utils.escape_html(File.read(__FILE__))}
+</pre>
+  HTML
 end

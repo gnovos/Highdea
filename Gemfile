@@ -6,6 +6,8 @@ gem 'ruby-conf'
 gem 'mobj'
 gem 'awesome_print'
 gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'json'
 
 group :development do
   gem 'wirble'
