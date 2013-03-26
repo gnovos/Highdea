@@ -30,7 +30,7 @@ get '/api/:version/:method' do |version, method|
   )
 end
 
-get '/inv' do
+get '/self/env' do
    respond <<-HTML
 
 <dl>
@@ -40,7 +40,7 @@ get '/inv' do
   HTML
 end
 
-get '/self' do
+get '/self/code' do
   respond <<-HTML
 <pre>
 #{Rack::Utils.escape_html(File.read(__FILE__))}
