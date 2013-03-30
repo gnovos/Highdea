@@ -7,11 +7,19 @@
 //
 
 #import "LMAppDelegate.h"
+#import "LMNetwork.h"
 
 @implementation LMAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
 {
+    
+    [[LMNetwork instance] get:@"foo" onComplete:^(MKNetworkOperation* response, NSString* body, NSError* error) {
+        dlogobj(body)
+        dlogobj(error)
+        dlogobj(response)
+    }];
+    
     // Override point for customization after application launch.
     return YES;
 }

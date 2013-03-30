@@ -25,6 +25,18 @@ get '/api/:version/:method' do |version, method|
         {
             user: 'test',
             idea: 'What if we made an app to share ideas while high?'
+        },
+        {
+            user: 'test',
+            idea: 'Test Idea?'
+        },
+        {
+            user: 'test',
+            idea: 'Yep, andother Test Idea.'
+        },
+        {
+            user: 'test',
+            idea: 'Magic 8-ball says: Outlook Looks Good'
         }
       ]
   )
