@@ -8,7 +8,8 @@
 #ifndef AMog_h
 #define AMog_h
 
-#define alog(fmt, ...) NSLog(@"%s [%d] " fmt, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+//#define alog(fmt, ...) NSLog(@"%s [%d] " fmt, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#define alog(fmt, ...) NSLog(@"%s " fmt, __PRETTY_FUNCTION__, ##__VA_ARGS__);
 #define plog(fmt, ...) NSLog(@"" fmt, ##__VA_ARGS__);
 
 //#define tlog(fmt, ...) TFLog(@"%s [%d] " fmt, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);

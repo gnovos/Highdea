@@ -37,16 +37,15 @@
 		0C3A5F261700DEA900186875 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3A5F251700DEA900186875 /* UIKit.framework */; };
 		0C3A5F281700DEA900186875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3A5F271700DEA900186875 /* Foundation.framework */; };
 		0C3A5F2A1700DEA900186875 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3A5F291700DEA900186875 /* CoreGraphics.framework */; };
-		0C3A5F301700DEA900186875 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C3A5F2E1700DEA900186875 /* InfoPlist.strings */; };
 		0C3A5F321700DEA900186875 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3A5F311700DEA900186875 /* main.m */; };
 		0C3A5F381700DEA900186875 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3A5F371700DEA900186875 /* Default.png */; };
 		0C3A5F3A1700DEA900186875 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3A5F391700DEA900186875 /* Default@2x.png */; };
 		0C3A5F3C1700DEA900186875 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3A5F3B1700DEA900186875 /* Default-568h@2x.png */; };
-		0C3A5F3F1700DEA900186875 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3A5F3D1700DEA900186875 /* MainStoryboard_iPhone.storyboard */; };
-		0C3A5F421700DEA900186875 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3A5F401700DEA900186875 /* MainStoryboard_iPad.storyboard */; };
 		0C4F9935170278E20046FF03 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4F9934170278E20046FF03 /* SystemConfiguration.framework */; };
 		0C4F9937170278E70046FF03 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4F9936170278E70046FF03 /* Security.framework */; };
 		0C4F9939170278ED0046FF03 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4F9938170278ED0046FF03 /* CFNetwork.framework */; };
+		0C83447A1708CD4700B561E2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8344791708CD4700B561E2 /* Main_iPhone.storyboard */; };
+		0C83447C1708CE2000B561E2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C83447B1708CE2000B561E2 /* Main_iPad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,22 +107,22 @@
 		0C07BE5B1708C28600E749DD /* UIScrollView+AM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+AM.m"; path = "Highdea/UIScrollView+AM.m"; sourceTree = "<group>"; };
 		0C07BE5C1708C28600E749DD /* UIView+AM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+AM.h"; path = "Highdea/UIView+AM.h"; sourceTree = "<group>"; };
 		0C07BE5D1708C28600E749DD /* UIView+AM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+AM.m"; path = "Highdea/UIView+AM.m"; sourceTree = "<group>"; };
+		0C07BE791708C5D500E749DD /* includes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = includes.h; sourceTree = "<group>"; };
 		0C3A5F221700DEA900186875 /* Highdea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Highdea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C3A5F251700DEA900186875 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0C3A5F271700DEA900186875 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0C3A5F291700DEA900186875 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0C3A5F2D1700DEA900186875 /* Highdea-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Highdea-Info.plist"; sourceTree = "<group>"; };
-		0C3A5F2F1700DEA900186875 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C3A5F311700DEA900186875 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C3A5F331700DEA900186875 /* Highdea-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Highdea-Prefix.pch"; sourceTree = "<group>"; };
 		0C3A5F371700DEA900186875 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0C3A5F391700DEA900186875 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0C3A5F3B1700DEA900186875 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		0C3A5F3E1700DEA900186875 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		0C3A5F411700DEA900186875 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		0C4F9934170278E20046FF03 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		0C4F9936170278E70046FF03 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		0C4F9938170278ED0046FF03 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0C8344791708CD4700B561E2 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		0C83447B1708CE2000B561E2 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,10 +181,22 @@
 			name = categories;
 			sourceTree = "<group>";
 		};
+		0C07BE781708C58200E749DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C8344791708CD4700B561E2 /* Main_iPhone.storyboard */,
+				0C83447B1708CE2000B561E2 /* Main_iPad.storyboard */,
+				0C07BE211708C20300E749DD /* AMAppDelegate.h */,
+				0C07BE221708C20300E749DD /* AMAppDelegate.m */,
+				0C07BE251708C20300E749DD /* AMViewController.h */,
+				0C07BE261708C20300E749DD /* AMViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		0C3A5F191700DEA900186875 = {
 			isa = PBXGroup;
 			children = (
-				0C4F9916170278060046FF03 /* lib */,
 				0C3A5F2B1700DEA900186875 /* Highdea */,
 				0C3A5F241700DEA900186875 /* Frameworks */,
 				0C3A5F231700DEA900186875 /* Products */,
@@ -217,8 +228,8 @@
 			isa = PBXGroup;
 			children = (
 				0C4F993E17027F3B0046FF03 /* Network */,
-				0C3A5F3D1700DEA900186875 /* MainStoryboard_iPhone.storyboard */,
-				0C3A5F401700DEA900186875 /* MainStoryboard_iPad.storyboard */,
+				0C07BE781708C58200E749DD /* Views */,
+				0C4F9916170278060046FF03 /* lib */,
 				0C3A5F2C1700DEA900186875 /* Supporting Files */,
 			);
 			path = Highdea;
@@ -227,9 +238,9 @@
 		0C3A5F2C1700DEA900186875 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0C07BE791708C5D500E749DD /* includes.h */,
 				0C3A5F331700DEA900186875 /* Highdea-Prefix.pch */,
 				0C3A5F2D1700DEA900186875 /* Highdea-Info.plist */,
-				0C3A5F2E1700DEA900186875 /* InfoPlist.strings */,
 				0C3A5F311700DEA900186875 /* main.m */,
 				0C3A5F371700DEA900186875 /* Default.png */,
 				0C3A5F391700DEA900186875 /* Default@2x.png */,
@@ -246,6 +257,7 @@
 				0C4F9933170278480046FF03 /* net */,
 			);
 			name = lib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		0C4F9933170278480046FF03 /* net */ = {
@@ -285,12 +297,8 @@
 		0C4F993E17027F3B0046FF03 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				0C07BE211708C20300E749DD /* AMAppDelegate.h */,
-				0C07BE221708C20300E749DD /* AMAppDelegate.m */,
 				0C07BE231708C20300E749DD /* AMNetwork.h */,
 				0C07BE241708C20300E749DD /* AMNetwork.m */,
-				0C07BE251708C20300E749DD /* AMViewController.h */,
-				0C07BE261708C20300E749DD /* AMViewController.m */,
 			);
 			name = Network;
 			sourceTree = "<group>";
@@ -347,12 +355,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C3A5F301700DEA900186875 /* InfoPlist.strings in Resources */,
 				0C3A5F381700DEA900186875 /* Default.png in Resources */,
 				0C3A5F3A1700DEA900186875 /* Default@2x.png in Resources */,
 				0C3A5F3C1700DEA900186875 /* Default-568h@2x.png in Resources */,
-				0C3A5F3F1700DEA900186875 /* MainStoryboard_iPhone.storyboard in Resources */,
-				0C3A5F421700DEA900186875 /* MainStoryboard_iPad.storyboard in Resources */,
+				0C83447A1708CD4700B561E2 /* Main_iPhone.storyboard in Resources */,
+				0C83447C1708CE2000B561E2 /* Main_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,9 +371,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C3A5F321700DEA900186875 /* main.m in Sources */,
+				0C07BE291708C20300E749DD /* AMViewController.m in Sources */,
 				0C07BE271708C20300E749DD /* AMAppDelegate.m in Sources */,
 				0C07BE281708C20300E749DD /* AMNetwork.m in Sources */,
-				0C07BE291708C20300E749DD /* AMViewController.m in Sources */,
 				0C07BE5E1708C28600E749DD /* MKNetworkEngine.m in Sources */,
 				0C07BE5F1708C28600E749DD /* MKNetworkOperation.m in Sources */,
 				0C07BE601708C28600E749DD /* NSArray+AM.m in Sources */,
@@ -395,33 +402,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		0C3A5F2E1700DEA900186875 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C3A5F2F1700DEA900186875 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		0C3A5F3D1700DEA900186875 /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C3A5F3E1700DEA900186875 /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		0C3A5F401700DEA900186875 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C3A5F411700DEA900186875 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0C3A5F461700DEA900186875 /* Debug */ = {
@@ -488,6 +468,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Highdea/Highdea-Prefix.pch";
 				INFOPLIST_FILE = "Highdea/Highdea-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)/usr/lib/system\"",
@@ -503,6 +484,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Highdea/Highdea-Prefix.pch";
 				INFOPLIST_FILE = "Highdea/Highdea-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)/usr/lib/system\"",

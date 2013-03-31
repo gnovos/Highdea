@@ -6,8 +6,6 @@
 //  Copyright (c) 2013 LoMason. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 @interface AMViewController : UIViewController
 
 @end

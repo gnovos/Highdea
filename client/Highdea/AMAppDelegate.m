@@ -13,12 +13,12 @@
 
 - (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
 {
-    
-    [[AMNetwork instance] get:@"foo" onComplete:^(MKNetworkOperation* response, NSString* body, NSError* error) {
-        dlogobj(body)
-        dlogobj(error)
-        dlogobj(response)
-    }];
+//    
+//    [[AMNetwork instance] get:@"foo" onComplete:^(MKNetworkOperation* response, NSString* body, NSError* error) {
+//        dlogobj(body)
+//        dlogobj(error)
+//        dlogobj(response)
+//    }];
     
     // Override point for customization after application launch.
     return YES;

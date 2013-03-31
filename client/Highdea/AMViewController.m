@@ -18,8 +18,21 @@
 
 AM_INIT_VIEW_CONTROLLER
 
-- (void) setup {
+- (void) viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    self.idea.y = self.view.height;
+}
+
+- (void) viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+
+    self.idea.text = @"this works?";
+    
+    [UIView animateWithDuration:5.0 animations:^{
+        self.idea.y = -self.idea.height;        
+    }];
     
 }
+
 
 @end

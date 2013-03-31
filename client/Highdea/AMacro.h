@@ -190,15 +190,17 @@ static inline CGRect CGRectEnvelope(CGRect rect, CGPoint point) {
 }
 
 #define AM_INIT_VIEW \
-- (id) init { if (self = [super init]) { [self setup]; } return self; } \
-- (id) initWithCoder:(NSCoder*)coder { if (self = [super initWithCoder:coder]) { [self setup]; } return self;} \
-- (id) initWithFrame:(CGRect)frame { if (self = [super initWithFrame:frame]) { [self setup]; } return self; }
+- (void) AMbuild { if ([self respondsToSelector:@selector(setup)]) { [self performSelector:@selector(setup)]; } } \
+- (id) init { if (self = [super init]) { [self AMbuild]; } return self; } \
+- (id) initWithCoder:(NSCoder*)coder { if (self = [super initWithCoder:coder]) { [self AMbuild]; } return self;} \
+- (id) initWithFrame:(CGRect)frame { if (self = [super initWithFrame:frame]) { [self AMbuild]; } return self; }
 
 #define AM_INIT_VIEW_CONTROLLER \
 - (void) didReceiveMemoryWarning { [super didReceiveMemoryWarning]; } \
-- (id) initWithNibName:(NSString*)nib bundle:(NSBundle*)bundle { if (self = [super initWithNibName:nib bundle:bundle]) { [self setup]; } return self; } \
-- (id) initWithCoder:(NSCoder*)decoder { if (self = [super initWithCoder:decoder]) { [self setup]; } return self; } \
-- (id) init { if (self = [super init]) { [self setup]; } return self; }
+- (void) AMbuild { if ([self respondsToSelector:@selector(setup)]) { [self performSelector:@selector(setup)]; } } \
+- (id) initWithNibName:(NSString*)nib bundle:(NSBundle*)bundle { if (self = [super initWithNibName:nib bundle:bundle]) { [self AMbuild]; } return self; } \
+- (id) initWithCoder:(NSCoder*)decoder { if (self = [super initWithCoder:decoder]) { [self AMbuild]; } return self; } \
+- (id) init { if (self = [super init]) { [self AMbuild]; } return self; }
 
 #endif
 
