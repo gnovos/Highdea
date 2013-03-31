@@ -12,13 +12,11 @@
 		0C3A5F2A1700DEA900186875 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3A5F291700DEA900186875 /* CoreGraphics.framework */; };
 		0C3A5F301700DEA900186875 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C3A5F2E1700DEA900186875 /* InfoPlist.strings */; };
 		0C3A5F321700DEA900186875 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3A5F311700DEA900186875 /* main.m */; };
-		0C3A5F361700DEA900186875 /* LMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3A5F351700DEA900186875 /* LMAppDelegate.m */; };
 		0C3A5F381700DEA900186875 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3A5F371700DEA900186875 /* Default.png */; };
 		0C3A5F3A1700DEA900186875 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3A5F391700DEA900186875 /* Default@2x.png */; };
 		0C3A5F3C1700DEA900186875 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3A5F3B1700DEA900186875 /* Default-568h@2x.png */; };
 		0C3A5F3F1700DEA900186875 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3A5F3D1700DEA900186875 /* MainStoryboard_iPhone.storyboard */; };
 		0C3A5F421700DEA900186875 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C3A5F401700DEA900186875 /* MainStoryboard_iPad.storyboard */; };
-		0C3A5F451700DEA900186875 /* LMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3A5F441700DEA900186875 /* LMViewController.m */; };
 		0C4F992A170278440046FF03 /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F9918170278440046FF03 /* NSData+MKBase64.m */; };
 		0C4F992B170278440046FF03 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F991A170278440046FF03 /* NSDate+RFC1123.m */; };
 		0C4F992C170278440046FF03 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F991C170278440046FF03 /* NSDictionary+RequestEncoding.m */; };
@@ -31,7 +29,6 @@
 		0C4F9935170278E20046FF03 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4F9934170278E20046FF03 /* SystemConfiguration.framework */; };
 		0C4F9937170278E70046FF03 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4F9936170278E70046FF03 /* Security.framework */; };
 		0C4F9939170278ED0046FF03 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C4F9938170278ED0046FF03 /* CFNetwork.framework */; };
-		0C4F994117027F520046FF03 /* LMNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F994017027F520046FF03 /* LMNetwork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,15 +40,11 @@
 		0C3A5F2F1700DEA900186875 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C3A5F311700DEA900186875 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C3A5F331700DEA900186875 /* Highdea-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Highdea-Prefix.pch"; sourceTree = "<group>"; };
-		0C3A5F341700DEA900186875 /* LMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMAppDelegate.h; sourceTree = "<group>"; };
-		0C3A5F351700DEA900186875 /* LMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMAppDelegate.m; sourceTree = "<group>"; };
 		0C3A5F371700DEA900186875 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0C3A5F391700DEA900186875 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0C3A5F3B1700DEA900186875 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0C3A5F3E1700DEA900186875 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		0C3A5F411700DEA900186875 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		0C3A5F431700DEA900186875 /* LMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMViewController.h; sourceTree = "<group>"; };
-		0C3A5F441700DEA900186875 /* LMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMViewController.m; sourceTree = "<group>"; };
 		0C4F9917170278440046FF03 /* NSData+MKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MKBase64.h"; sourceTree = "<group>"; };
 		0C4F9918170278440046FF03 /* NSData+MKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MKBase64.m"; sourceTree = "<group>"; };
 		0C4F9919170278440046FF03 /* NSDate+RFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFC1123.h"; sourceTree = "<group>"; };
@@ -74,11 +67,6 @@
 		0C4F9934170278E20046FF03 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		0C4F9936170278E70046FF03 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		0C4F9938170278ED0046FF03 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		0C4F993B17027D7D0046FF03 /* LMConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMConst.h; sourceTree = "<group>"; };
-		0C4F993C17027D7D0046FF03 /* LMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMacro.h; sourceTree = "<group>"; };
-		0C4F993D17027D7D0046FF03 /* LMLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLog.h; sourceTree = "<group>"; };
-		0C4F993F17027F520046FF03 /* LMNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNetwork.h; sourceTree = "<group>"; };
-		0C4F994017027F520046FF03 /* LMNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNetwork.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +86,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C07BDC31708C00F00E749DD /* categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
 		0C3A5F191700DEA900186875 = {
 			isa = PBXGroup;
 			children = (
@@ -133,12 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				0C4F993E17027F3B0046FF03 /* Network */,
-				0C3A5F341700DEA900186875 /* LMAppDelegate.h */,
-				0C3A5F351700DEA900186875 /* LMAppDelegate.m */,
 				0C3A5F3D1700DEA900186875 /* MainStoryboard_iPhone.storyboard */,
 				0C3A5F401700DEA900186875 /* MainStoryboard_iPad.storyboard */,
-				0C3A5F431700DEA900186875 /* LMViewController.h */,
-				0C3A5F441700DEA900186875 /* LMViewController.m */,
 				0C3A5F2C1700DEA900186875 /* Supporting Files */,
 			);
 			path = Highdea;
@@ -161,6 +152,7 @@
 		0C4F9916170278060046FF03 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				0C07BDC31708C00F00E749DD /* categories */,
 				0C4F993A17027D510046FF03 /* util */,
 				0C4F9933170278480046FF03 /* net */,
 			);
@@ -196,9 +188,6 @@
 		0C4F993A17027D510046FF03 /* util */ = {
 			isa = PBXGroup;
 			children = (
-				0C4F993B17027D7D0046FF03 /* LMConst.h */,
-				0C4F993C17027D7D0046FF03 /* LMacro.h */,
-				0C4F993D17027D7D0046FF03 /* LMLog.h */,
 			);
 			name = util;
 			sourceTree = "<group>";
@@ -206,8 +195,6 @@
 		0C4F993E17027F3B0046FF03 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				0C4F993F17027F520046FF03 /* LMNetwork.h */,
-				0C4F994017027F520046FF03 /* LMNetwork.m */,
 			);
 			name = Network;
 			sourceTree = "<group>";
@@ -281,8 +268,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C3A5F321700DEA900186875 /* main.m in Sources */,
-				0C3A5F361700DEA900186875 /* LMAppDelegate.m in Sources */,
-				0C3A5F451700DEA900186875 /* LMViewController.m in Sources */,
 				0C4F992A170278440046FF03 /* NSData+MKBase64.m in Sources */,
 				0C4F992B170278440046FF03 /* NSDate+RFC1123.m in Sources */,
 				0C4F992C170278440046FF03 /* NSDictionary+RequestEncoding.m in Sources */,
@@ -292,7 +277,6 @@
 				0C4F9930170278440046FF03 /* MKNetworkEngine.m in Sources */,
 				0C4F9931170278440046FF03 /* MKNetworkOperation.m in Sources */,
 				0C4F9932170278440046FF03 /* Reachability.m in Sources */,
-				0C4F994117027F520046FF03 /* LMNetwork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,7 +17,7 @@
 //
 //  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 //  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-//  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALM THE
+//  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHAAM THE
 //  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 //  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
@@ -989,11 +989,11 @@ OSStatus extractIdentityAndTrust(CFDataRef inPKCS12Data,        // 5
     if (((challenge.protectionSpace.authenticationMethod == NSURLAuthenticationMethodDefault) ||
          (challenge.protectionSpace.authenticationMethod == NSURLAuthenticationMethodHTTPBasic) ||
          (challenge.protectionSpace.authenticationMethod == NSURLAuthenticationMethodHTTPDigest) ||
-         (challenge.protectionSpace.authenticationMethod == NSURLAuthenticationMethodNTLM)) &&
+         (challenge.protectionSpace.authenticationMethod == NSURLAuthenticationMethodNTAM)) &&
         (self.username && self.password))
     {
       
-      // for NTLM, we will assume user name to be of the form "domain\\username"
+      // for NTAM, we will assume user name to be of the form "domain\\username"
       NSURLCredential *credential = [NSURLCredential credentialWithUser:self.username
                                                                password:self.password
                                                             persistence:self.credentialPersistence];
