@@ -30,6 +30,8 @@
 		0C961C6B17CB33CE002EC800 /* MessageEntryInputField@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C961C6717CB33CE002EC800 /* MessageEntryInputField@2x.png */; };
 		0C961C6F17CB49AD002EC800 /* HIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C961C6E17CB49AD002EC800 /* HIViewController.m */; };
 		0C961C7117CB4CE5002EC800 /* qr.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C961C7017CB4CE5002EC800 /* qr.png */; };
+		0CAEEBE717CB651A0077511E /* app-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CAEEBE617CB651A0077511E /* app-icon@2x.png */; };
+		0CAEEBE917CB65660077511E /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CAEEBE817CB65660077511E /* app-icon.png */; };
 		B7E0F9A3497A4CF6B00427B6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C4AB75409F4C65834100D6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,8 @@
 		0C961C6D17CB49AD002EC800 /* HIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIViewController.h; sourceTree = "<group>"; };
 		0C961C6E17CB49AD002EC800 /* HIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIViewController.m; sourceTree = "<group>"; };
 		0C961C7017CB4CE5002EC800 /* qr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qr.png; sourceTree = "<group>"; };
+		0CAEEBE617CB651A0077511E /* app-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-icon@2x.png"; path = "../app-icon@2x.png"; sourceTree = "<group>"; };
+		0CAEEBE817CB65660077511E /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-icon.png"; path = "../app-icon.png"; sourceTree = "<group>"; };
 		92C4AB75409F4C65834100D6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD52F26CCA5B4C7A90123AA0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -151,6 +155,8 @@
 		0C4B4A9217CB231C00EA6594 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0CAEEBE817CB65660077511E /* app-icon.png */,
+				0CAEEBE617CB651A0077511E /* app-icon@2x.png */,
 				0C961C7017CB4CE5002EC800 /* qr.png */,
 				0C961C6417CB33CE002EC800 /* MessageEntryBackground.png */,
 				0C961C6517CB33CE002EC800 /* MessageEntryBackground@2x.png */,
@@ -246,6 +252,8 @@
 				0C961C6A17CB33CE002EC800 /* MessageEntryInputField.png in Resources */,
 				0C961C6B17CB33CE002EC800 /* MessageEntryInputField@2x.png in Resources */,
 				0C961C7117CB4CE5002EC800 /* qr.png in Resources */,
+				0CAEEBE717CB651A0077511E /* app-icon@2x.png in Resources */,
+				0CAEEBE917CB65660077511E /* app-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
